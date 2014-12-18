@@ -39,6 +39,7 @@ int wait = 500;
 long lcount = 0;
 void loop()
 {
+  lcd.clear();
   for ( int ii = 1; ii < 72; ii++) {
     lcd.setCursor( ii, 1);
     lcd.draw(smile, 48, 48);
