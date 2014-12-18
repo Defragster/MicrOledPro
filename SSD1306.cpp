@@ -4,8 +4,6 @@
 #include <Wire.h>
 #include "SSD1306.h"
 
-int8_t rst_RST=0; //BUGBUG
-
 SSD1306::SSD1306(int8_t SCLK, int8_t DC, int8_t RST, int8_t CS) {
   cs = CS;
   rst = RST;
