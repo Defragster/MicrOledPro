@@ -7,7 +7,6 @@
 SSD1306::SSD1306(int8_t SCLK, int8_t DC, int8_t RST, int8_t CS) {
   cs = CS;
   rst = RST;
-  rst_RST = RST;
   dc = DC;
   sclk = SCLK;
 }
