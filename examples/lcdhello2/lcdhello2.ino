@@ -45,6 +45,7 @@ void loop()
   delay(wait);
 
   lcd.clear();
+  lcd.setCursor(0, 0);
   lcd.setFontSize(FONT_SIZE_SMALL);
   lcd.println("Hello, world!");
   lcd.setFontSize(FONT_SIZE_MEDIUM);
@@ -55,12 +56,11 @@ void loop()
   lcd.println("Hello, world!ABC<>{}");
   delay(wait);
   lcd.clear();
+  lcd.setCursor(0, 0);
   
   for ( int ii = 1; ii < 9; ii++) {
     lcd.printInt(ii);
-    delay(wait / 10);
     lcd.println("_._.5._._0_._.5._._0");
-    delay(wait / 4);
   }
   delay(wait);
 

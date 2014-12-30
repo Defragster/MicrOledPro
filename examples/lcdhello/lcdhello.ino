@@ -53,6 +53,7 @@ void loop()
   delay(wait);
 
   lcd.clear();
+  lcd.setCursor(0, 0);
   lcd.setFontSize(FONT_SIZE_SMALL);
   lcd.println("Hello, world!");
   lcd.setFontSize(FONT_SIZE_MEDIUM);
